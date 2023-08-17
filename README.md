@@ -1,41 +1,19 @@
-# Website
+# NitroIq.io (saasassin.github.io)
 
-This website is built using [Docusaurus 2](https://docusaurus.io/), a modern static website generator.
 
-### Installation
+## Local Development
 
-```
-$ yarn
-```
+`cd site`
 
-### Local Development
+`npx docusaurus start`
 
-```
-$ yarn start
-```
+http://localhost:3000/
 
-This command starts a local development server and opens up a browser window. Most changes are reflected live without having to restart the server.
 
-### Build
+## Build Static Files for Deployment
 
-```
-$ yarn build
-```
+`npm run build`
 
-This command generates static content into the `build` directory and can be served using any static contents hosting service.
+Once it finishes, the static files will be generated within the build directory.
 
-### Deployment
-
-Using SSH:
-
-```
-$ USE_SSH=true yarn deploy
-```
-
-Not using SSH:
-
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+`npm run serve` to test locally
