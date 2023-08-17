@@ -24,3 +24,5 @@ http://localhost:3000/
 Once it finishes, the static files will be generated within the build directory.
 
 `npm run serve` to test locally
+
+Push changes and the Github Action will run to deploy the site to the `gh-pages` directory, where the site is served from.
