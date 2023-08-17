@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[4042],{6620:s=>{s.exports=JSON.parse('{"permalink":"/saasassin.github.io/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

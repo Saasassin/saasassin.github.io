@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[8921],{2590:s=>{s.exports=JSON.parse('{"label":"hello","permalink":"/saasassin.github.io/blog/tags/hello","allTagsPath":"/saasassin.github.io/blog/tags","count":2}')}}]);
