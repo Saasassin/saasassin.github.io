@@ -1,5 +1,5 @@
 # NitroIq.io (saasassin.github.io)
-
+   
 ## Configuration - Local
 
 ```
@@ -9,7 +9,7 @@ sudo npm install -g yarn
 ```
 
 **Do remember to re-open the terminal for changes to take effect.**
-
+ 
 ## Local Development
 
 `npx docusaurus start`
