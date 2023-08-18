@@ -6,13 +6,23 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #2e8555;
-  --ifm-color-primary-dark: #29784c;
-  --ifm-color-primary-darker: #277148;
-  --ifm-color-primary-darkest: #205d3b;
-  --ifm-color-primary-light: #33925d;
-  --ifm-color-primary-lighter: #359962;
-  --ifm-color-primary-lightest: #3cad6e;
+
+  --brand: #61dafb;
+  --dark: #282c34;
+  --deepdark: #20232a;
+  --light: #ffffff;
+  --text: #1a1a1a;
+  --subtle: #b4b4b4;
+  --divider: #ececec;
+  --tintColor: #f7f7f7;
+
+  --ifm-color-primary: #282c34;
+  --ifm-color-primary-dark: #24282f;
+  --ifm-color-primary-darker: #22252c;
+  --ifm-color-primary-darkest: #1c1f24;
+  --ifm-color-primary-light: #2c3039;
+  --ifm-color-primary-lighter: #2e333c;
+  --ifm-color-primary-lightest: #343944;
   --ifm-code-font-size: 95%;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
 }
@@ -28,3 +38,209 @@
   --ifm-color-primary-lightest: #4fddbf;
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
+
+.thing {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+/* Header Hero */
+.hero__title {
+  font-size: 5em;
+  font-weight: 700;
+  color: var(--brand);
+
+}
+
+.hero__subtitle {
+  font-size: 2.5em;
+  font-weight: 400;
+  color: var(--light);
+}
+
+.hero__subtext {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--tint);
+}
+
+.beta-invite-text {
+  font-size: 2.0em;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.HeaderHero {
+  padding-top: 20px;
+  background-color: #282c34;
+}
+
+.HeaderHero .TwoColumns .column {
+  max-width: initial;
+}
+
+.HeaderHero .TwoColumns {
+  align-items: center;
+}
+
+.HeaderHero .title {
+  font-size: 84px;
+  color: var(--brand);
+  line-height: 1;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 500;
+}
+
+.HeaderHero .tagline {
+  font-size: 36px;
+  line-height: 1.3;
+  color: white;
+  font-weight: 500;
+}
+
+.HeaderHero .buttons {
+  margin-top: 40px;
+}
+
+.HeaderHero .image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (min-width: 961px) {
+  .HeaderHero .TwoColumns {
+    grid-template-columns: 3fr 1fr;
+  }
+
+  .HeaderHero .TwoColumns .column.left {
+    padding-right: 0;
+  }
+
+  .HeaderHero .TwoColumns .column.right {
+    padding-left: 0;
+  }
+}
+
+@media only screen and (min-width: 481px) and (max-width: 960px) {
+  .HeaderHero .column.first {
+    display: flex;
+    justify-content: center;
+  }
+  .HeaderHero .column.last {
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+  .HeaderHero .title {
+    font-size: 60px;
+  }
+
+  .HeaderHero .tagline {
+    font-size: 30px;
+  }
+
+  .HeaderHero .socialLinks {
+    margin-top: -2rem;
+  }
+}
+
+/* Heading */
+
+.Heading {
+  font-size: 25px;
+  color: var(--ifm-font-color-base);
+  line-height: 1.2;
+  margin-top: 0;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+/* Two columns */
+
+.TwoColumns {
+  display: grid;
+}
+
+.TwoColumns .column {
+  width: 100%;
+}
+
+.TwoColumns .column.first {
+  grid-area: first;
+}
+
+.TwoColumns .column.last {
+  grid-area: last;
+}
+
+@media only screen and (min-width: 961px) {
+  .TwoColumns {
+    max-width: 900px;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "first last";
+  }
+
+  .TwoColumns.reverse {
+    grid-template-areas: "last first";
+  }
+
+  .TwoColumns .column {
+    max-width: 450px;
+  }
+
+  .TwoColumns .column.left {
+    padding-right: 50px;
+  }
+
+  .TwoColumns .column.right {
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 960px) {
+  .TwoColumns,
+  .TwoColumns.reverse {
+    grid-template-columns: 1fr;
+    grid-template-areas: "first" "last";
+  }
+
+  .TwoColumns .column {
+    padding: 0 4rem;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .TwoColumns .column {
+    padding: 0 1.25rem;
+  }
+}
+
+/* Section */
+
+.Section {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  overflow-x: hidden;
+}
+
+.Section + .Section {
+  border-top: 1px solid var(--ifm-table-border-color);
+}
+
+.Section.tint {
+  background-color: var(--ifm-menu-color-background-active);
+}
+
+.Section.dark {
+  background-color: var(--dark);
+}
+/* 
+.Section p a {
+  @extend %link-style;
+} */
