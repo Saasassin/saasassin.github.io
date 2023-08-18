@@ -2,22 +2,24 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# Introduction
 
-Let's discover **Docusaurus in less than 5 minutes**.
+NitroIQ provides Agile Teams with insights and recommendations that help them improve team performance, velocity, and work quality. 
+
+NitroIQ is easy to install as am Atlassian JIRA plugin.
 
 ## Getting Started
 
 Get started by **creating a new site**.
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+<!-- Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**. -->
 
 ### What you'll need
 
-- [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-  - When installing Node.js, you are recommended to check all checkboxes related to dependencies.
+- Administrator rights on a JIRA Cloud instance.
+- (Optional) Rum and Coke (because who doesn't like a Cuba Libre?) 
 
-## Generate a new site
+## Installation
 
 Generate a new Docusaurus site using the **classic template**.
 
@@ -31,7 +33,7 @@ You can type this command into Command Prompt, Powershell, Terminal, or any othe
 
 The command also installs all necessary dependencies you need to run Docusaurus.
 
-## Start your site
+## Configuration Wizard
 
 Run the development server:
 
