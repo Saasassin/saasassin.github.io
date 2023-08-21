@@ -1,14 +1,9 @@
 import React from 'react';
 import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import { useEffect } from 'react';
 import styles from './index.module.css';
-import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
-
 
 function Heading({ text }) {
   return <h2 className="Heading">{text}</h2>;
@@ -257,7 +252,7 @@ export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
-      title={`${siteConfig.title}`}
+      title={`${siteConfig.title}` + " - " + `${siteConfig.tagline}`}
       description={`${siteConfig.themeConfig.description}`}
       keywords={`${siteConfig.themeConfig.keywords}`}>
       <HomepageHeader />
