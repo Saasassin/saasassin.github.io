@@ -4,7 +4,6 @@ sidebar_position: 1
 
 import IntroVideo from './assets/intro.gif';
 
-
 # Introduction
 
 NitroIQ provides Agile Teams with insights and recommendations that help them improve team performance, velocity, and work quality. 
@@ -28,7 +27,7 @@ NitroIQ is easy to install as am Atlassian JIRA plugin and removes the need for 
     - etc...
 - Outlier highlighting in tables, to help you pinpoint specific issues or Sprints with problems.
 - Backlog age distribution analysis and scoring of individual issues using advanced machine learning.
-- Security: Your data stays inside of JIRA and is processes within your browser!
+- Your data stays **safe and secure inside of JIRA** and is processed within your browser!
 
 ## Getting Started
 

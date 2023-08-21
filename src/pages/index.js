@@ -119,12 +119,12 @@ const OutliersFeatures = () => {
           reverse={false}
           columnOne={
             <div className="columnOne">
-              <Heading text="Highlighting Outliers in JIRA Data" />
+              <Heading text="Focus on What Matters, first!" />
               <p>
-                <b>Navigating JIRA data can be difficult.</b> NitroIQ will highlight outliers in your data to help you focus on the most important issues and sprints.
+                <b>We will highlight the most important issues for you.</b> </p><p>NitroIQ will highlight outliers to help you focus on the most important issues and sprints.
               </p>
               <p>
-                Highlighted outliers are often accompanied by a detailed explanation of why the data is marked as an outlier and helpful recommendations on what you can do to improve it.
+                Highlighted outliers are often accompanied by a detailed explanation of why the issue or sprint is marked as an outlier and helpful recommendations on what you can do to improve it.
               </p>
             </div>
           }
@@ -152,8 +152,9 @@ const BacklogFeatures = () => {
           columnOne={
             <div className="columnOne">
               <Heading text="Backlog Scoring and Analysis" />
+              <p><b>Let our proprietary Doom Score algorithm flow through you.</b></p>
               <p>
-                Using advanced heuristics, we provide you with a score for each of your JIRA Backlog Issues, so you can focus on pruning or fixing those issues alone.
+                Using advanced heuristics, we provide you with a score for each of your JIRA Backlog Issues, so you can focus on pruning or fixing those issues first.
               </p>
               <p>
                 The backlog score is a measure of how well the issue is defined and its likelihood of being completed in future sprints.
@@ -175,10 +176,44 @@ const BacklogFeatures = () => {
   );
 };
 
+const SafeSecureFeatures = () => {
+  return (
+    <Section background="light">
+      <div className="container">
+        <TwoColumns
+          reverse={false}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="Safe and Secure" />
+              <p>
+                <b>Runs completely inside your browser.</b> </p>
+              <p>
+                Once installed in your Atlassian JIRA instance, NitroIQ runs completely inside your browser. <b>We do not store any of your data on our servers.</b>
+              </p>
+              <p>
+                This means that all of your data is safe and secure and never leaves your JIRA instance.
+              </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/secure.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+    </Section>
+  );
+};
+
 const GetStarted = () => {
   return (
     <Section background="light">
-      
+
     </Section>
   );
 };
@@ -223,7 +258,8 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />">
+      description={`${siteConfig.themeConfig.description}`}
+      keywords={`${siteConfig.themeConfig.keywords}`}>
       <HomepageHeader />
       <main>
         <HomePageSubtext />
@@ -231,6 +267,7 @@ export default function Home() {
         <ChartingFeatures />
         <OutliersFeatures />
         <BacklogFeatures />
+        <SafeSecureFeatures />
         <GetStarted />
       </main>
     </Layout>

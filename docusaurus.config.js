@@ -7,6 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'NitroIQ',
+  
   tagline: 'Supercharge your Agile Software Development.',
   favicon: 'img/favicon.ico',
 
@@ -40,7 +41,7 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-//          sidebarCollapsed: false,
+          //          sidebarCollapsed: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -78,20 +79,31 @@ const config = {
       //   textColor: '#FFFFFF',
       //   isCloseable: false,
       // },  
+      metadata: [
+        { name: 'keywords', content: 'saas, software, agile, development, scrum, backlog,  , sdlc, atlassian jira, jira, productivity, metrics, analytics, kpi, kpis'},
+        { name: 'description', content: 'Supercharge your Agile Software Development.' },
+        { name: 'og:title', content: 'NitroIQ' },
+        { name: 'og:description', content: 'Supercharge your Agile Software Development.' },
+        { name: 'og:image', content: 'https://nitroiq.io/img/nitroiq_logo.png' },
+        { name: 'og:url', content: 'https://nitroiq.io' },
+        { name: 'og:type', content: 'website' },
+        { name: 'og:site_name', content: 'NitroIQ' },
+        { name: 'og:locale', content: 'en_US' },
+      ],
       navbar: {
-        style: 'primary', 
+        style: 'primary',
         title: 'Nitro IQ',
         logo: {
           alt: 'Nitro IQ Logo',
           src: 'img/nitroiq_logo.png',
         },
-        items: [   
+        items: [
           {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
             label: 'Documentation',
-          },        
+          },
           // { to: "/#features", label: "Features", position: "right" },
           // { to: "/#about", label: "About", position: "right" },
 
@@ -152,6 +164,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
     }),
 };
 
