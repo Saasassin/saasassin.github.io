@@ -269,6 +269,8 @@ export default function Home() {
         <BacklogFeatures />
         <SafeSecureFeatures />
         <GetStarted />
+        <HomePageSubtext />
+
       </main>
     </Layout>
   );
