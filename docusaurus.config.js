@@ -84,7 +84,7 @@ const config = {
         { name: 'description', content: 'Supercharge your Agile Software Development.' },
         { name: 'og:title', content: 'NitroIQ' },
         { name: 'og:description', content: 'Supercharge your Agile Software Development.' },
-        { name: 'og:image', content: 'https://nitroiq.io/img/nitroiq_logo.png' },
+        { name: 'og:image', content: 'https://nitroiq.io/img/nitroiq_logo_w_bg.png' },
         { name: 'og:url', content: 'https://nitroiq.io' },
         { name: 'og:type', content: 'website' },
         { name: 'og:site_name', content: 'NitroIQ' },
