@@ -11,8 +11,3 @@ sidebar_position: 2
 - (Optional) Rum and Coke (because who doesn't like a Cuba Libre?) 
 
 ## Installation
-
-
-## Configuration 
-
-### Specifying Assignees 
