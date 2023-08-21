@@ -269,3 +269,10 @@
   color: var(--brand);
 }
 
+.doc_image {
+  border: #dcdcdc 1px solid;
+  max-height: 350px; 
+  align-items: center;
+  justify-content: center;
+  
+}
