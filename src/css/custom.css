@@ -250,3 +250,22 @@
 .Section p a {
   @extend %link-style;
 } */
+
+/* Footer */
+.footer__link-item {
+  color: var(--light);
+}
+
+.footer__link-item:hover {
+  color: var(--brand);
+}
+
+/* Navbar */
+.navbar__link {
+  color: var(--light);
+}
+
+.navbar__link:hover {
+  color: var(--brand);
+}
+
