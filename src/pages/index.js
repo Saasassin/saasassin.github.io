@@ -9,6 +9,7 @@ import styles from './index.module.css';
 import Head from '@docusaurus/Head';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 
+
 function Heading({ text }) {
   return <h2 className="Heading">{text}</h2>;
 }
@@ -48,32 +49,32 @@ function TwoColumns({ columnOne, columnTwo, reverse }) {
 const ScoreCardFeatures = () => {
 
   return (
-    <Section background="tint">
-      {/* <div className="container">
-        <Heading text="How it works" />
+    <Section background="light">
+      <div className="container">
         <TwoColumns
           columnOne={
             <div className="columnOne">
-              <h3>1. Connect to JIRA</h3>
+              <Heading text="Team and Individual Performance Scorecards" />
               <p>
-                Connect to your JIRA instance and select the project you want to analyze.
+                NitroIQ provides you with scorecards for your team and each individual on your team based on specific metrics like Sprint velocity, burndown, and issue churn.
               </p>
-              <h3>2. Analyze</h3>
               <p>
-                NitroIQ will analyze your JIRA data and provide you with a scorecard for your team.
-              </p>
-              <h3>3. Improve</h3>
-              <p>
-                NitroIQ will provide you with recommendations to improve your team's performance.
+                The scorecard uses advanced Machine Learning algorithms to analyze your JIRA data and provide each individual with a score based on their performance.
               </p>
             </div>
           }
           columnTwo={
             <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/scorecards.png')}
+                // width="1100"
+                // height="250"
+                /></div>
             </div>
           }
         />
-      </div> */}
+      </div>
     </Section>
   );
 };
@@ -81,23 +82,113 @@ const ScoreCardFeatures = () => {
 const ChartingFeatures = () => {
   return (
     <Section background="tint">
+      <div className="container">
+        <TwoColumns
+          reverse={true}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="Metrics that Matter" />
+              <p>
+                <b>Say NO to Vanity Metrics.</b>
+              </p>
+              <p>
+                NitroIQ provides you with the metrics that matter to your team's performance. We expose the richness of data that is locked behind complicated JIRA dashboards, JQL queries, and reports and make them easily accessible with a single click.
+              </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/metrics.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+    </Section>
+  );
+};
+
+const OutliersFeatures = () => {
+  return (
+    <Section background="light">
+      <div className="container">
+        <TwoColumns
+          reverse={false}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="Highlighting Outliers in JIRA Data" />
+              <p>
+                <b>Navigating JIRA data can be difficult.</b> NitroIQ will highlight outliers in your data to help you focus on the most important issues and sprints.
+              </p>
+              <p>
+                Highlighted outliers are often accompanied by a detailed explanation of why the data is marked as an outlier and helpful recommendations on what you can do to improve it.
+              </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/outliers.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+    </Section>
+  );
+};
+
+const BacklogFeatures = () => {
+  return (
+    <Section background="tint">
+      <div className="container">
+        <TwoColumns
+          reverse={true}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="Backlog Scoring and Analysis" />
+              <p>
+                Using advanced heuristics, we provide you with a score for each of your JIRA Backlog Issues, so you can focus on pruning or fixing those issues alone.
+              </p>
+              <p>
+                The backlog score is a measure of how well the issue is defined and its likelihood of being completed in future sprints.
+              </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/backlog.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
     </Section>
   );
 };
 
 const GetStarted = () => {
   return (
-    <Section background="tint">
+    <Section background="light">
+      
     </Section>
   );
 };
 
-const HomePageSubtext = () => { 
+const HomePageSubtext = () => {
   return (
     <Section background="tint">
-      <div className="container" style={{ textAlign: 'center'}}>
+      <div className="container" style={{ textAlign: 'center' }}>
         <p className="beta-invite-text">
-          NitroIQ is currently in an invite-only Beta program. 
+          NitroIQ is currently in an invite-only Beta program.
         </p>
       </div>
     </Section>
@@ -124,6 +215,9 @@ function HomepageHeader() {
   );
 }
 
+/** 
+ * 
+*/
 export default function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
@@ -133,11 +227,11 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomePageSubtext />
-        {/* <HomepageFeatures /> */}
-{/* 
         <ScoreCardFeatures />
         <ChartingFeatures />
-        <GetStarted /> */}
+        <OutliersFeatures />
+        <BacklogFeatures />
+        <GetStarted />
       </main>
     </Layout>
   );

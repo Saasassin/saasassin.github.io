@@ -16,6 +16,9 @@ sudo npm install -g yarn
 
 http://localhost:3000/
 
+If you want to run on a different port: 
+
+`npm run start -- --port 3001`
 
 ## Build Static Files for Deployment
 

@@ -39,10 +39,16 @@
   --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.3);
 }
 
-.thing {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 20px;
+.feature-image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+.feature-image  {
+  border: #dcdcdc 1px solid;
+  max-height: 350px; 
 }
 
 /* Header Hero */
