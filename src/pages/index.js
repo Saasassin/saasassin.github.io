@@ -253,7 +253,7 @@ export default function Home() {
   return (
     <Layout
       title={`${siteConfig.title}` + " - " + `${siteConfig.tagline}`}
-      description={`${siteConfig.themeConfig.description}`}
+      description="NitroIQ - Supercharge your Agile Software Development with the only JIRA plugin you will ever need."
       keywords={`${siteConfig.themeConfig.keywords}`}>
       <HomepageHeader />
       <main>
