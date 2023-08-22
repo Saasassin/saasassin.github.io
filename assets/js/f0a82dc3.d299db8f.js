@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[382],{1534:s=>{s.exports=JSON.parse('{"label":"nitroiq","permalink":"/blog/tags/nitroiq","allTagsPath":"/blog/tags","count":1}')}}]);
