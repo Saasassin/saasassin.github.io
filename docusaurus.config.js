@@ -58,6 +58,9 @@ const config = {
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
+        googleTagManager: {
+          containerId: 'GTM-KRGSR65R',
+        }
       }),
     ],
   ],
@@ -128,10 +131,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
-              {
-                label: 'About',
-                to: '/#about',
-              },
+              // {
+              //   label: 'About',
+              //   to: '/#about',
+              // },
             ],
           },
           // {
