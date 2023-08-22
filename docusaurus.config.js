@@ -60,7 +60,11 @@ const config = {
         },
         googleTagManager: {
           containerId: 'GTM-KRGSR65R',
-        }
+        },
+        gtag: {
+          trackingID: 'G-123456789',
+          anonymizeIP: true,
+        },
       }),
     ],
   ],
@@ -108,7 +112,7 @@ const config = {
             label: 'Documentation',
           },
           // { to: "/#features", label: "Features", position: "right" },
-//          { to: "/#about", label: "About", position: "right" },
+          //          { to: "/#about", label: "About", position: "right" },
           { to: '/blog', label: 'Blog', position: 'right' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
