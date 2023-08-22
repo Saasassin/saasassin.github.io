@@ -224,7 +224,7 @@ const AboutHomePage = () => {
         </p>
         <p className="home-about-text">
           NitroIQ was born out of our own frustrations with the lack of actionable insights and metrics in JIRA and similar tools.
-          We wanted to build a tool that would help us improve our own team's performance that we can share with the public and hopefull have a positive impact in your team's performance.
+          We wanted to build a tool that would help us improve our own team's performance that we can share with the public and hopefully have a positive impact in your team's performance.
         </p>
         <p className="home-about-text">
           If you have any questions, please feel free to reach out to us at <a href="mailto:support@nitroiq.io">support@nitroiq.io</a>
