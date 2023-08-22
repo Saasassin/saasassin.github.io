@@ -1,10 +1,10 @@
 ---
 title: NitroIQ - Private Beta
-description: Launchin NitroIQ in an invite-only private Beta
+description: Launching NitroIQ in an invite-only private Beta
 slug: nitroiq-private-beta
 authors: royrusso
 tags: [nitroiq, private-beta, jira]
-image: ./nitroiq_logo_w_bg.png
+image: https://nitroiq.io/img/nitroiq_logo_w_bg.png
 hide_table_of_contents: false
 ---
 
