@@ -62,7 +62,7 @@ const config = {
           containerId: 'GTM-KRGSR65R',
         },
         gtag: {
-          trackingID: 'G-123456789',
+          trackingID: 'G-CD4SL1WCE1',
           anonymizeIP: false,
         },
       }),
