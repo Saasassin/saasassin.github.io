@@ -48,6 +48,8 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: 'Recent Posts',
+          blogSidebarCount: 20,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
@@ -79,7 +81,7 @@ const config = {
       //   isCloseable: false,
       // },  
       metadata: [
-        { name: 'keywords', content: 'saas, software, agile, development, scrum, backlog,  , sdlc, atlassian jira, jira, productivity, metrics, analytics, kpi, kpis'},
+        { name: 'keywords', content: 'saas, software, agile, development, scrum, backlog,  , sdlc, atlassian jira, jira, productivity, metrics, analytics, kpi, kpis' },
         { name: 'og:title', content: 'NitroIQ' },
         { name: 'og:description', content: 'Supercharge your Agile Software Development.' },
         { name: 'og:image', content: 'https://nitroiq.io/img/nitroiq_logo_og.png' },
@@ -103,9 +105,8 @@ const config = {
             label: 'Documentation',
           },
           // { to: "/#features", label: "Features", position: "right" },
-          // { to: "/#about", label: "About", position: "right" },
-
-          //{ to: '/blog', label: 'Blog', position: 'left' },
+//          { to: "/#about", label: "About", position: "right" },
+          { to: '/blog', label: 'Blog', position: 'right' },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -117,11 +118,19 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: 'Menu',
             items: [
               {
                 label: 'Documentation',
                 to: '/docs/intro',
+              },
+              {
+                label: 'Blog',
+                to: '/blog',
+              },
+              {
+                label: 'About',
+                to: '/#about',
               },
             ],
           },

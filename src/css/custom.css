@@ -51,6 +51,24 @@
   max-height: 350px; 
 }
 
+.beta-invite-text {
+  font-size: 2.0em;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.home-about-title {
+  font-size: 1.5em;
+  font-weight: 400;
+  color: var(--dark);
+}
+
+.home-about-text {
+  font-size: 1.1em;
+  font-weight: 400;
+  color: var(--dark);
+}
+
 /* Header Hero */
 .hero__title {
   font-size: 5em;
@@ -69,12 +87,6 @@
   font-size: 1.5em;
   font-weight: 400;
   color: var(--tint);
-}
-
-.beta-invite-text {
-  font-size: 2.0em;
-  font-weight: 400;
-  color: var(--dark);
 }
 
 .HeaderHero {

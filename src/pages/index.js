@@ -212,6 +212,27 @@ const GetStarted = () => {
     </Section>
   );
 };
+const AboutHomePage = () => {
+  return (
+    <Section background="light">
+      <div className="container">
+        <p className="home-about-title">
+          About NitroIQ
+        </p>
+        <p className="home-about-text">
+          We are a team of software developers, data scientists, product managers, and technology leaders who are passionate about Agile Software Development and Software Development as a craft.
+        </p>
+        <p className="home-about-text">
+          NitroIQ was born out of our own frustrations with the lack of actionable insights and metrics in JIRA and similar tools.
+          We wanted to build a tool that would help us improve our own team's performance that we can share with the public and hopefull have a positive impact in your team's performance.
+        </p>
+        <p className="home-about-text">
+          If you have any questions, please feel free to reach out to us at <a href="mailto:support@nitroiq.io">support@nitroiq.io</a>
+        </p>
+      </div>
+    </Section>
+  );
+};
 
 const HomePageSubtext = () => {
   return (
@@ -263,7 +284,8 @@ export default function Home() {
         <OutliersFeatures />
         <BacklogFeatures />
         <SafeSecureFeatures />
-        <GetStarted />
+        <AboutHomePage />
+        {/* <GetStarted /> */}
         <HomePageSubtext />
 
       </main>
