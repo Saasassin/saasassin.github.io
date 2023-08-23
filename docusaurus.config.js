@@ -141,6 +141,19 @@ const config = {
               // },
             ],
           },
+          {
+            title: 'Legal',
+            items: [
+              {
+                label: 'Website Privacy Policy',
+                href: '/privacy_policy_site',
+              },
+              {
+                label: 'Application Privacy Policy',
+                href: '/privacy_policy_app',
+              },
+            ]
+          }
           // {
           //   title: 'Community',
           //   items: [
