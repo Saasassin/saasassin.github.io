@@ -152,6 +152,10 @@ const config = {
                 label: 'Application Privacy Policy',
                 href: '/privacy_policy_app',
               },
+              {
+                label: 'End User License Agreement',
+                href: '/eula',
+              },
             ]
           }
           // {
