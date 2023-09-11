@@ -128,6 +128,10 @@ const config = {
             title: 'Menu',
             items: [
               {
+                label: 'Home',
+                to: '/',
+              },
+              {
                 label: 'Documentation',
                 to: '/docs/intro',
               },
@@ -135,6 +139,10 @@ const config = {
                 label: 'Blog',
                 to: '/blog',
               },
+              {
+                label: 'Support',
+                to: '/docs/help/',
+              }
               // {
               //   label: 'About',
               //   to: '/#about',

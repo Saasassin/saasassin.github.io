@@ -9,9 +9,14 @@ import TabItem from '@theme/TabItem';
 
 :::info Choose a Support Method
 
-Support is available open to anyone wanting to learn more, ask questions, or get help with their installation regardless if they have an active installation at the moment.  
+Support is available open to anyone wanting to learn more, ask questions, or get help with their installation regardless if they have an active installation at the moment.
 
 <Tabs>
+<TabItem value="supportporal" label="Support Portal">
+The support portal is the preferred method of communicating with us. Use this for a faster reply. <br/><br/>
+<a href="https://saasassin.atlassian.net/servicedesk/customer/portal/2" target="_blank">Support Portal</a>
+
+</TabItem>
   <TabItem value="email" label="Email">Email any questions, comments, or concerns: <a href="mailto:support@nitroiq.io" target="_blank">support@nitroiq.io</a>
   </TabItem>
   <TabItem value="slack" label="Slack">
