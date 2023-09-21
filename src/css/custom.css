@@ -9,7 +9,7 @@
 
   --brand: #61dafb;
   --brand-lighter: #a1eafb;
-  --brand-darker: #52b1ce;
+  --brand-darker: #1795b8;
   --dark: #282c34;
   --deepdark: #20232a;
   --light: #ffffff;
@@ -132,7 +132,7 @@
 
 .custom-button-link {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border-radius: 5px;
   border: var(--brand-darker) 1px solid;
   padding: 10px 20px;
@@ -143,7 +143,7 @@
 
 .custom-button-link:hover {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border: var(--brand) 1px solid;
   border-radius: 5px;
   padding: 10px 20px;
@@ -154,7 +154,7 @@
 
 .custom-button-link:active {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border-radius: 5px;
   padding: 10px 20px;
   font-size: 1.5em;
@@ -164,7 +164,7 @@
  
 .header-button-link {
   color: var(--light)!important;
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border-radius: 3px;
   border: var(--brand-darker) 1px solid;
   padding: 3px 6px;
@@ -175,7 +175,7 @@
  
 .header-button-link:hover {
   color: var(--light)!important;
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border: var(--brand) 1px solid;
   border-radius: 3px;
   padding: 3px 6px;
@@ -186,7 +186,7 @@
 
 .header-button-link:active {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border-radius: 3px;
   padding: 3px 6px;
   font-size: 1em;
@@ -196,7 +196,7 @@
 
 .doc-button-link {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border-radius: 3px;
   border: var(--brand-darker) 1px solid;
   padding: 10px 20px;
@@ -207,7 +207,7 @@
 
 .doc-button-link:hover {
   color: var(--light);
-  background-color: var(--brand);
+  background-color: var(--brand-darker);
   border: var(--brand) 1px solid;
   border-radius: 3px;
   padding: 10px 20px;
