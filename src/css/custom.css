@@ -8,6 +8,8 @@
 :root {
 
   --brand: #61dafb;
+  --brand-lighter: #a1eafb;
+  --brand-darker: #52b1ce;
   --dark: #282c34;
   --deepdark: #20232a;
   --light: #ffffff;
@@ -127,6 +129,93 @@
   align-items: center;
   justify-content: center;
 }
+
+.custom-button-link {
+  color: var(--light);
+  background-color: var(--brand);
+  border-radius: 5px;
+  border: var(--brand-darker) 1px solid;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.custom-button-link:hover {
+  color: var(--light);
+  background-color: var(--brand);
+  border: var(--brand) 1px solid;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.custom-button-link:active {
+  color: var(--light);
+  background-color: var(--brand);
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-decoration: none;
+}
+ 
+.header-button-link {
+  color: var(--light)!important;
+  background-color: var(--brand);
+  border-radius: 3px;
+  border: var(--brand-darker) 1px solid;
+  padding: 3px 6px;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+ 
+.header-button-link:hover {
+  color: var(--light)!important;
+  background-color: var(--brand);
+  border: var(--brand) 1px solid;
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.header-button-link:active {
+  color: var(--light);
+  background-color: var(--brand);
+  border-radius: 3px;
+  padding: 3px 6px;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.doc-button-link {
+  color: var(--light);
+  background-color: var(--brand);
+  border-radius: 3px;
+  border: var(--brand-darker) 1px solid;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
+.doc-button-link:hover {
+  color: var(--light);
+  background-color: var(--brand);
+  border: var(--brand) 1px solid;
+  border-radius: 3px;
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: 400;
+  text-decoration: none;
+}
+
 
 @media only screen and (min-width: 961px) {
   .HeaderHero .TwoColumns {

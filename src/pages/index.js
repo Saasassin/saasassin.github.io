@@ -1,9 +1,9 @@
-import React from 'react';
-import clsx from 'clsx';
+import useBaseUrl from '@docusaurus/useBaseUrl';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
+import clsx from 'clsx';
+import React from 'react';
 import styles from './index.module.css';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 
 function Heading({ text }) {
   return <h2 className="Heading">{text}</h2>;
@@ -73,6 +73,14 @@ const ScoreCardFeatures = () => {
     </Section>
   );
 };
+
+function CustomButtonLink({ to, children }) {
+  return (
+    <a href={to} className="custom-button-link">
+      {children}
+    </a>
+  );
+}
 
 const ChartingFeatures = () => {
   return (
@@ -239,8 +247,10 @@ const HomePageSubtext = () => {
     <Section background="tint">
       <div className="container" style={{ textAlign: 'center' }}>
         <p className="beta-invite-text">
-          NitroIQ is currently in an invite-only Beta program.
-        </p>
+          NitroIQ is available on the Atlassian Marketplace.
+            </p>
+            <CustomButtonLink to={"https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud"}>Get Started!</CustomButtonLink>
+
       </div>
     </Section>
   );

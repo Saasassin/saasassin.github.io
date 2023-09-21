@@ -106,6 +106,12 @@ const config = {
         },
         items: [
           {
+            href: 'https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud',
+            label: 'Easy Install',
+            position: 'right',
+            className: 'header-button-link',
+          },
+          {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'right',
@@ -130,6 +136,10 @@ const config = {
               {
                 label: 'Home',
                 to: '/',
+              },
+              {
+                label: 'Easy Install',
+                href: 'https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud',
               },
               {
                 label: 'Documentation',
@@ -183,16 +193,13 @@ const config = {
           //     },
           //   ],
           // },
+          // ,
           // {
           //   title: 'More',
           //   items: [
           //     {
-          //       label: 'Blog',
-          //       to: '/blog',
-          //     },
-          //     {
-          //       label: 'GitHub',
-          //       href: 'https://github.com/facebook/docusaurus',
+          //       label: 'Easy Install',
+          //       href: 'https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud',
           //     },
           //   ],
           // },
