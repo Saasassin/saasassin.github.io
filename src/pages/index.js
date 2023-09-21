@@ -103,7 +103,7 @@ const ChartingFeatures = () => {
             <div className="columnTwo">
               <div className="feature-image-container">
                 <img className="feature-image"
-                  src={useBaseUrl('/img/metrics.png')}></img>
+                  src={useBaseUrl('/img/time_in_status.png')}></img>
               </div>
             </div>
           }
@@ -122,7 +122,8 @@ const OutliersFeatures = () => {
           reverse={false}
           columnOne={
             <div className="columnOne">
-              <Heading text="Focus on What Matters, first!" />
+
+              <Heading text="Pinpoint critical issues in your performance." />
               <p>
                 <b>We will highlight the most important issues for you.</b> </p><p>NitroIQ will highlight outliers to help you focus on the most important issues and sprints.
               </p>
@@ -135,7 +136,74 @@ const OutliersFeatures = () => {
             <div className="columnTwo">
               <div className="feature-image-container">
                 <img className="feature-image"
-                  src={useBaseUrl('/img/outliers.png')}></img>
+                  src={useBaseUrl('/img/fishy_issues.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+    </Section>
+  );
+};
+
+const VisualizeFeatures = () => {
+  return (
+    <Section background="tint">
+      <div className="container">
+        <TwoColumns
+          reverse={true}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="See your Data come to Life" />
+              <p><b>Visualize your data in a whole new way.</b></p>
+              <p>
+                NitroIQ provides you with a rich set of visualizations to help you understand your data and your team's performance. We provide you with a set of visualizations that are not available in JIRA or other similar tools.
+              </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/visualize_data.png')}></img>
+              </div>
+            </div>
+          }
+        />
+      </div>
+
+    </Section>
+  );
+};
+
+const PrescriptiveFeatures = () => {
+  return (
+    <Section background="tint">
+      <div className="container">
+        <TwoColumns
+          reverse={false}
+          columnOne={
+            <div className="columnOne">
+              <Heading text="From Predictive to Prescriptive" />
+              <p>
+                <b>
+                  NitroIQ will prescribe actions to improve team performance.
+                </b></p>
+              <p>
+                
+                NitroIQ provides you with actionable insights and recommendations on how to improve your team's performance. 
+                
+                We provide you with recommendations and explanations on how to improve your team's performance, that are measurable and actionable.
+                
+                </p>
+            </div>
+          }
+          columnTwo={
+            <div className="columnTwo">
+              <div className="feature-image-container">
+                <img className="feature-image"
+                  src={useBaseUrl('/img/prescriptive.png')}></img>
               </div>
             </div>
           }
@@ -213,13 +281,6 @@ const SafeSecureFeatures = () => {
   );
 };
 
-const GetStarted = () => {
-  return (
-    <Section background="light">
-
-    </Section>
-  );
-};
 const AboutHomePage = () => {
   return (
     <Section background="light">
@@ -292,6 +353,8 @@ export default function Home() {
         <ScoreCardFeatures />
         <ChartingFeatures />
         <OutliersFeatures />
+        <VisualizeFeatures />
+        <PrescriptiveFeatures />
         <BacklogFeatures />
         <SafeSecureFeatures />
         <AboutHomePage />
