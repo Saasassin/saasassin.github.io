@@ -179,7 +179,7 @@ const VisualizeFeatures = () => {
 
 const PrescriptiveFeatures = () => {
   return (
-    <Section background="tint">
+    <Section background="light">
       <div className="container">
         <TwoColumns
           reverse={false}
