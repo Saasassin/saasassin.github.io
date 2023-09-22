@@ -26,7 +26,7 @@ NitroIQ is easy to install as am Atlassian JIRA plugin and removes the need for 
   - Sprint Burndown and Velocity
   - Individual Assignee Velocity and Burndown
   - Daily Activity
-  - Issue Edits and Changes occuring Mid-Sprint
+  - Issue Edits and Changes occurring Mid-Sprint
   - etc...
 - Outlier highlighting in tables, to help you pinpoint specific issues or Sprints with problems.
 - Backlog age distribution analysis and scoring of individual issues using advanced machine learning.
