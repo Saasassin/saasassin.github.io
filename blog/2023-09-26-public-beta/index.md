@@ -4,7 +4,7 @@ description: Launching NitroIQ on the Atlassian Marketplace
 slug: nitroiq-atlassian-marketplace
 authors: royrusso
 tags: [nitroiq, jira]
-image: https://nitroiq.io/img/nitroiq_logo_w_bg.png
+image: https://nitroiq.io/img/atlassian_marketplace.png
 hide_table_of_contents: false
 ---
 

@@ -50,6 +50,9 @@ const config = {
           showReadingTime: true,
           blogSidebarTitle: 'Recent Posts',
           blogSidebarCount: 20,
+          blogTitle: 'NitroIQ Blog',
+          blogDescription: 'Supercharge your Agile Software Development.',
+
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
