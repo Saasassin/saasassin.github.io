@@ -195,7 +195,7 @@
 }
 
 .doc-button-link {
-  color: var(--light);
+  color: var(--light)!important;
   background-color: var(--brand-darker);
   border-radius: 3px;
   border: var(--brand-darker) 1px solid;
@@ -206,7 +206,7 @@
 }
 
 .doc-button-link:hover {
-  color: var(--light);
+  color: var(--dark);
   background-color: var(--brand-darker);
   border: var(--brand) 1px solid;
   border-radius: 3px;
