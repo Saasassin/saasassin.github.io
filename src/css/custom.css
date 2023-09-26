@@ -377,3 +377,33 @@
   justify-content: center;
   
 }
+
+/* link colors globally */
+/* a {
+  color: var(--brand);
+}
+
+a:hover {
+  color: var(--brand-darker);
+} */
+
+/* link colors in docs */
+.markdown a {
+  color: var(--brand-darker);
+}
+
+.markdown a:hover {
+  color: var(--brand);
+}
+
+/* link colors in blog */
+
+.blog a {
+  color: var(--brand-darker);
+}
+
+.blog a:hover {
+  color: var(--brand);
+}
+
+
