@@ -10,7 +10,6 @@ hide_table_of_contents: false
 
 import IntroVideo from './intro.gif';
 import Sankey from './jira_board_column_flow.png';
-import Chord from './issue_status_flow.png';
 import MarketPlace from './atlassian_marketplace.png';
 
 ## Live on the Atlassian Marketplace
@@ -60,6 +59,10 @@ When I sit by CTOs and Product Managers using the application, I hear two things
 On the former, NitroIQ is proving/confirming what a lead always thought was occurring and couldn't explain why. On the latter, NitroIQ is exposing some hidden insights previously locked behind JIRAs data access.
 
 Both of these reactions are exactly what anyone looking for product-market-fit is wanting to hear.
+
+<p align="center">
+<img src={IntroVideo} className="doc_image"/>
+</p>
 
 ## Next Steps
 
