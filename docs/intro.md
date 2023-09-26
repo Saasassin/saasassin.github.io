@@ -8,7 +8,7 @@ import IntroVideo from './assets/intro.gif';
 
 NitroIQ provides Agile Teams with insights and recommendations that help them improve team performance, velocity, and work quality.
 
-NitroIQ is easy to install as am Atlassian JIRA plugin and removes the need for additional application installations and integration. Because it all sits inside of JIRA, it also means none of your data leaves Atlassian JIRA.
+NitroIQ is easy to install as an Atlassian JIRA plugin and removes the need for additional application installations and integration. Because it all sits inside of JIRA, it also means none of your data leaves Atlassian JIRA.
 
 <p align="center">
 <img src={IntroVideo} className="doc_image"/>
