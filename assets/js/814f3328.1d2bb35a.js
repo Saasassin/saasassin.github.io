@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[535],{5641:t=>{t.exports=JSON.parse('{"title":"Recent Posts","items":[{"title":"Live on the Atlassian Marketplace","permalink":"/blog/nitroiq-atlassian-marketplace"},{"title":"NitroIQ - Private Beta","permalink":"/blog/nitroiq-private-beta"}]}')}}]);
