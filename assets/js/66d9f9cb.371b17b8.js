@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[1196],{7448:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/issue-churn","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Supercharge your Agile Software Development.","blogTitle":"NitroIQ Blog"}')}}]);

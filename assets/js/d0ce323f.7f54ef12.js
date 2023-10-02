@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[9715],{7606:s=>{s.exports=JSON.parse('{"label":"issue churn","permalink":"/blog/tags/issue-churn","allTagsPath":"/blog/tags","count":1}')}}]);
