@@ -1,0 +1,10 @@
+{
+    "label": "How To...",
+    "position": 6,
+    "collapsed": false,
+    "link": {
+      "type": "generated-index",
+      "description": "Using NitroIQ and JIRA to diagnose performance issues with your teams."
+    }
+  }
+  
