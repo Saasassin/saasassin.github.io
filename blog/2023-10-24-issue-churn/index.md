@@ -27,7 +27,9 @@ It's also important to represent Issue Churn as a Rate... that is, the amount of
 
 :::tip
 
-I recently wrote a documentation article on [Diagnosing Issue Churn](https://nitroiq.io/docs/how_to/diagnosing_issue_churn/) for those using NitroIQ.
+**Some Issue Churn is Ok**
+
+It's important to note that some issue churn is ok. In fact, it's expected. The goal is to minimize churn as much as possible, but it's not always possible to eliminate it completely.
 
 :::
 
@@ -68,3 +70,5 @@ Reducing churn is a team effort and requires a combination of planning, communic
 ## Conclusion
 
 Churn can be simple to measure but difficult to address in Agile shops. It requires a team effort and a combination of planning, communication, estimation, prioritization, and execution. The key is to identify the root cause of churn and address it accordingly. There is no silver bullet for reducing churn, but there are some best practices that can help.
+
+_I recently wrote a documentation article on [Diagnosing Issue Churn](https://nitroiq.io/docs/how_to/diagnosing_issue_churn/) for those using NitroIQ to better their Agile practice._
