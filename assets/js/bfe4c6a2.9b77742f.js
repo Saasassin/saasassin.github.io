@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[4304],{9987:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/backlog-maintenance","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Supercharge your Agile Software Development.","blogTitle":"NitroIQ Blog"}')}}]);

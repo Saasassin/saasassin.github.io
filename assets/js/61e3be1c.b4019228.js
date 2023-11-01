@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[4807],{4409:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/how-to","page":1,"postsPerPage":10,"totalPages":1,"totalCount":3,"blogDescription":"Supercharge your Agile Software Development.","blogTitle":"NitroIQ Blog"}')}}]);
