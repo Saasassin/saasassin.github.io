@@ -1,45 +1,45 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require("prism-react-renderer/themes/github");
+const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'NitroIQ',
-  tagline: 'Supercharge your Agile Software Development.',
-  favicon: 'img/favicon.ico',
+  title: "NitroIQ",
+  tagline: "Supercharge your Agile Software Development.",
+  favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: 'https://nitroiq.io/',
+  url: "https://nitroiq.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: '/', //'/saasassin.github.io/',
+  baseUrl: "/", //'/saasassin.github.io/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'saasassin', // Usually your GitHub org/user name.
-  projectName: 'saasassin.github.io', // Usually your repo name.
+  organizationName: "saasassin", // Usually your GitHub org/user name.
+  projectName: "saasassin.github.io", // Usually your repo name.
   trailingSlash: true,
 
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: "en",
+    locales: ["en"],
   },
 
   presets: [
     [
-      'classic',
+      "classic",
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           //          sidebarCollapsed: false,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
@@ -48,24 +48,30 @@ const config = {
         },
         blog: {
           showReadingTime: true,
-          blogSidebarTitle: 'Recent Posts',
+          blogSidebarTitle: "Recent Posts",
           blogSidebarCount: 20,
-          blogTitle: 'NitroIQ Blog',
-          blogDescription: 'Supercharge your Agile Software Development.',
-
+          blogTitle: "NitroIQ Blog",
+          blogDescription: "Supercharge your Agile Software Development.",
+          feedOptions: {
+            type: "all",
+            title: "NitroIQ Blog",
+            description: "Supercharge your Agile Software Development.",
+            link: "https://nitroiq.io/blog",
+            language: "en",
+          },
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           // editUrl:
           //   'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
         googleTagManager: {
-          containerId: 'GTM-KRGSR65R',
+          containerId: "GTM-KRGSR65R",
         },
         gtag: {
-          trackingID: 'G-CD4SL1WCE1',
+          trackingID: "G-CD4SL1WCE1",
           anonymizeIP: false,
         },
       }),
@@ -78,7 +84,7 @@ const config = {
       // Replace with your project's social card
       // image: 'img/docusaurus-social-card.jpg',
       colorMode: {
-        defaultMode: 'light',
+        defaultMode: "light",
         disableSwitch: true,
         respectPrefersColorScheme: false,
       },
@@ -89,40 +95,50 @@ const config = {
       //   backgroundColor: '#282c34',
       //   textColor: '#FFFFFF',
       //   isCloseable: false,
-      // },  
+      // },
       metadata: [
-        { name: 'keywords', content: 'saas, software, agile, development, scrum, backlog,  , sdlc, atlassian jira, jira, productivity, metrics, analytics, kpi, kpis' },
-        { name: 'og:title', content: 'NitroIQ' },
-        { name: 'og:description', content: 'Supercharge your Agile Software Development.' },
-        { name: 'og:image', content: 'https://nitroiq.io/img/nitroiq_logo_og.png' },
-        { name: 'og:url', content: 'https://nitroiq.io' },
-        { name: 'og:type', content: 'website' },
-        { name: 'og:site_name', content: 'NitroIQ' },
-        { name: 'og:locale', content: 'en_US' },
+        {
+          name: "keywords",
+          content:
+            "saas, software, agile, development, scrum, backlog,  , sdlc, atlassian jira, jira, productivity, metrics, analytics, kpi, kpis",
+        },
+        { name: "og:title", content: "NitroIQ" },
+        {
+          name: "og:description",
+          content: "Supercharge your Agile Software Development.",
+        },
+        {
+          name: "og:image",
+          content: "https://nitroiq.io/img/nitroiq_logo_og.png",
+        },
+        { name: "og:url", content: "https://nitroiq.io" },
+        { name: "og:type", content: "website" },
+        { name: "og:site_name", content: "NitroIQ" },
+        { name: "og:locale", content: "en_US" },
       ],
       navbar: {
-        style: 'primary',
-        title: 'Nitro IQ',
+        style: "primary",
+        title: "Nitro IQ",
         logo: {
-          alt: 'Nitro IQ Logo',
-          src: 'img/nitroiq_logo.png',
+          alt: "Nitro IQ Logo",
+          src: "img/nitroiq_logo.png",
         },
         items: [
           {
-            href: 'https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud',
-            label: 'Easy Install',
-            position: 'right',
-            className: 'header-button-link',
+            href: "https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud",
+            label: "Easy Install",
+            position: "right",
+            className: "header-button-link",
           },
           {
-            type: 'docSidebar',
-            sidebarId: 'tutorialSidebar',
-            position: 'right',
-            label: 'Documentation',
+            type: "docSidebar",
+            sidebarId: "tutorialSidebar",
+            position: "right",
+            label: "Documentation",
           },
           // { to: "/#features", label: "Features", position: "right" },
           //          { to: "/#about", label: "About", position: "right" },
-          { to: '/blog', label: 'Blog', position: 'right' },
+          { to: "/blog", label: "Blog", position: "right" },
           // {
           //   href: 'https://github.com/facebook/docusaurus',
           //   label: 'GitHub',
@@ -131,31 +147,31 @@ const config = {
         ],
       },
       footer: {
-        style: 'dark',
+        style: "dark",
         links: [
           {
-            title: 'Menu',
+            title: "Menu",
             items: [
               {
-                label: 'Home',
-                to: '/',
+                label: "Home",
+                to: "/",
               },
               {
-                label: 'Easy Install',
-                href: 'https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud',
+                label: "Easy Install",
+                href: "https://marketplace.atlassian.com/apps/1232080?tab=overview&hosting=cloud",
               },
               {
-                label: 'Documentation',
-                to: '/docs/intro',
+                label: "Documentation",
+                to: "/docs/intro",
               },
               {
-                label: 'Blog',
-                to: '/blog',
+                label: "Blog",
+                to: "/blog",
               },
               {
-                label: 'Support',
-                to: '/docs/help/',
-              }
+                label: "Support",
+                to: "/docs/help/",
+              },
               // {
               //   label: 'About',
               //   to: '/#about',
@@ -163,22 +179,22 @@ const config = {
             ],
           },
           {
-            title: 'Legal',
+            title: "Legal",
             items: [
               {
-                label: 'Website Privacy Policy',
-                href: '/privacy_policy_site',
+                label: "Website Privacy Policy",
+                href: "/privacy_policy_site",
               },
               {
-                label: 'Application Privacy Policy',
-                href: '/privacy_policy_app',
+                label: "Application Privacy Policy",
+                href: "/privacy_policy_app",
               },
               {
-                label: 'End User License Agreement',
-                href: '/eula',
+                label: "End User License Agreement",
+                href: "/eula",
               },
-            ]
-          }
+            ],
+          },
           // {
           //   title: 'Community',
           //   items: [
@@ -213,9 +229,7 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
-
     }),
 };
 
 module.exports = config;
-
