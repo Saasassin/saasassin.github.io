@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+description: NitroIQ assigns scorecards to your Sprints, Assignees, Creators, and also scores your organization on high-level concepts like Innovation Rate, Churn Rate, and Completion Rate.
+keywords: [scorecards, innovation rate, churn rate, completion rate]
+tags: [scorecards, innovation rate, churn rate, completion rate]
 ---
 
 import SampleScoreCard from './assets/sample_scorecard.png';
@@ -18,7 +21,7 @@ Scorecards are a convenient way to see, at-a-glance, how your team or individual
 
 :::info
 
-Note that when you filter a specific page by Assignee, NitroIQ recalculates the score and assigns it to the selected Assignee, giving you an easy way to *grade* individual members on a metric. 
+Note that when you filter a specific page by Assignee, NitroIQ recalculates the score and assigns it to the selected Assignee, giving you an easy way to _grade_ individual members on a metric.
 
 :::
 
@@ -38,7 +41,7 @@ NitroIQ recommends that teams strive for an Innovation Rate of 75% or higher. Th
 
 ### Churn Rate
 
-Churn is a measure of lost productivity and highly distruptive to teams. It is the number of times an issue has rolled over from one sprint to the next. 
+Churn is a measure of lost productivity and highly distruptive to teams. It is the number of times an issue has rolled over from one sprint to the next.
 
 Churn Rate is the percentage of issues that have churned in the selected Sprints. A high churn rate indicates that a significant amount of work is not being completed as scheduled.
 

@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+keywords: [jira, backlog maintenance, agile]
+description: NitroIQ can help you identify issues that are causing backlog maintenance issues and take action to address them. This can help improve team performance, reduce churn, and help you focus on the right things at the right time.
+tags: [jira, backlog maintenance, how-to]
 ---
 
 import BlogScoreCard from './assets/backlog_scorecard.png';

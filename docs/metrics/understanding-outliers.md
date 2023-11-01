@@ -1,5 +1,8 @@
 ---
 sidebar_position: 3
+description: NitroIQ naturally draws your attention to outliers in your data. Normally we will highlight Sprints or Issues that are considered to be statistical outliers.
+keywords: [jira, outliers]
+tags: [outliers]
 ---
 
 import Outliers from './assets/ss_outliers.png';

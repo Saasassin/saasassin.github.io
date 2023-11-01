@@ -1,5 +1,8 @@
 ---
 sidebar_position: 2
+description: NitroIQ auto-scores issues in your backlog with a proprietary algorithm we call doom score. This score is a measure of impending concerns for Backlog issues that aren't believed to be ready for Sprint-assignment.
+keywords: [backlog maintenance, doom score]
+tags: [backlog maintenance, doom score]
 ---
 
 import DoomScore from './assets/ss_doomscore.png';
@@ -10,7 +13,7 @@ NitroIQ auto-scores issues in your backlog with a proprietary algorithm.
 
 ## Why Doom Score Matters
 
-Doom Score is a measure of impending concerns for Backlog issues that aren't believed to be ready for Sprint-assignment. 
+Doom Score is a measure of impending concerns for Backlog issues that aren't believed to be ready for Sprint-assignment.
 
 Auto-assigning a score to every issue, allows you to more easily identify backlog issues that may need some editing before being assigned to a sprint, or even pointed.
 

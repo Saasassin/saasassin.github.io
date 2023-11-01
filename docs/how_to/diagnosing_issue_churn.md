@@ -1,5 +1,8 @@
 ---
 sidebar_position: 1
+description: Diagnosing issue churn in Jira.
+keywords: [jira, issue churn, how-to]
+tags: [jira, issue churn, how-to]
 ---
 
 import Churn from './assets/churn.png';
