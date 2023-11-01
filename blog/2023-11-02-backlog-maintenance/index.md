@@ -33,7 +33,7 @@ Failure to maintain a backlog is a common occurence I've witnessed in my career 
 
 4. **Backlog Issues should have a clear Definition of Done** - Garbage belongs in the bin, not the backlog. If issues are arriving in the backlog without a clear definition of Done or Acceptance Criteria that everyone understands, then they should be rejected.
 
-5. **Categorize and Tag your Issues** - Tags and Labels should be used to help categorize or group issues together. This will help Product Management and Engineering to quickly filter and find issues that are related. This will help with prioritization as engineers can knock-out multiple issues that are related, and in the same part of the codebase, at the same time.
+5. **Categorize and Tag your Issues** - Tags and Labels should be used to help categorize or group issues together. This will help Product Management and Engineering to quickly filter and find issues that are related. Categorized issue, for instance, can help with prioritization as engineers can knock-out multiple issues that are related, and in the same part of the codebase, at the same time.
 
 ## Conclusion
 
