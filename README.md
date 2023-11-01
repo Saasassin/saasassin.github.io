@@ -1,5 +1,5 @@
 # NitroIq.io (saasassin.github.io)
-   
+
 ## Configuration - Local
 
 ```
@@ -9,14 +9,14 @@ sudo npm install -g yarn
 ```
 
 **Do remember to re-open the terminal for changes to take effect.**
- 
+
 ## Local Development
 
 `npx docusaurus start`
 
 http://localhost:3000/
 
-If you want to run on a different port: 
+If you want to run on a different port:
 
 `npm run start -- --port 3001`
 
