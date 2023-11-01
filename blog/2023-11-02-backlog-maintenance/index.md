@@ -21,6 +21,8 @@ Failure to maintain a backlog is a common occurence I've witnessed in my career 
 - The team is working on issues that are not the most important (lack of prioritization)
 - Product Management is unable to provide accurate estimates on when a feature will be delivered (lack of estimation) to customers and management.
 
+<!-- truncate -->
+
 ## 5 Tips to a Healthy Backlog
 
 1. **Keep your backlog CURRENT and RELEVANT** - The backlog should be updated regularly to reflect the current state of the project. This includes adding new issues, removing completed issues, and updating the status of existing issues. **This also means regularly pruning OLD issues**. For example: if an issue has been sitting in the backlog for more than 3 months, it's likely that it's no longer relevant. If it is, it should be re-prioritized and re-estimated. (3 months is a good rule of thumb, but it depends on your team's velocity).
