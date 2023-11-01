@@ -39,4 +39,4 @@ Failure to maintain a backlog is a common occurence I've witnessed in my career 
 
 Maintaining your backlog is an important ritual step in the Agile process. Backlogs act as a living queue of work that the business has prioritized for the team to work on. Without proper grooming, the backlog can become stale and lose its value, leading to a variety of negative issues.
 
-For those of you using NitroIQ, we've made it easy to maintain your backlog with our ability to auto-score your backlog, highlight issues that require further refinement are are "too old", and increased visibility into your backlog health with our [Backlog Doom Score](https://nitroiq.io/docs/metrics/understanding-doom-score/).
+For those of you using NitroIQ, we've made it easy to maintain your backlog with our ability to auto-score your backlog, highlight issues that require further refinement and are "too old", and increased visibility into your backlog health with our [Backlog Doom Score](https://nitroiq.io/docs/metrics/understanding-doom-score/).
