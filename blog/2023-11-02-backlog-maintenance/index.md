@@ -29,9 +29,9 @@ Failure to maintain a backlog is a common occurence I've witnessed in my career 
 
 2. **Backlog Issues should be ordered by priority** - The backlog should be ordered by priority, with the most important issues at the top. This allows the team to focus on the most important issues first, and ensures that they are always working on the most important issues. This also helps Product Management to provide accurate estimates on when a feature will be delivered to customers and management.
 
-3. **Estimate your Issues** - This tip may depend on your existing product management workflows regarding how issues arrive at the backlog, but as a general rule, I recommend people keep backlog items estimated. Estimaes will help guide the team on ranking priority and will help provide better accuracy on delivery dates and resouce allocation.
+3. **Estimate your Issues** - This may be controversial for some, but I believe that **every issue should be estimated in a backlog**. Estimaes will help guide the team on ranking priority and will help provide better accuracy on delivery dates and resource allocation. _Frankly, I'm not sure how you can prioritize a backlog without estimates... and if you aren't prioritizing you're not going to be able to forecast delivery dates._
 
-4. **Backlog Issues should have a clear Definition of Done** - Garbage belongs in the bin, not the backlog. If issues are arriving in the backlog without a clear definition of Done or Acceptance Criteria that everyone understands, then they should be rejected.
+4. **Backlog Issues should have a clear Definition of Done** - Garbage belongs in the bin, not the backlog. If issues are arriving in the backlog without a clear definition of Done or Acceptance Criteria that everyone understands, then they should be rejected. _Also, see point #3 above. If you don't have a clear definition of Done, how can you estimate?_
 
 5. **Categorize and Tag your Issues** - Tags and Labels should be used to help categorize or group issues together. This will help Product Management and Engineering to quickly filter and find issues that are related. Categorized issue, for instance, can help with prioritization as engineers can knock-out multiple issues that are related, and in the same part of the codebase, at the same time.
 
