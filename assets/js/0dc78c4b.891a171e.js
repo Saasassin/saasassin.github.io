@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[7646],{4496:s=>{s.exports=JSON.parse('{"label":"agile","permalink":"/blog/tags/agile","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);

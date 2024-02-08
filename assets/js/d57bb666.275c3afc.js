@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[2608],{9912:e=>{e.exports=JSON.parse('{"permalink":"/blog/tags/private-beta","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Supercharge your Agile Software Development.","blogTitle":"NitroIQ Blog"}')}}]);

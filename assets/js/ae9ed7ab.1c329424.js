@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[4344],{1570:s=>{s.exports=JSON.parse('{"label":"jira","permalink":"/blog/tags/jira","allTagsPath":"/blog/tags","count":5,"unlisted":false}')}}]);

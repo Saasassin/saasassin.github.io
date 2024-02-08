@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunksaasassin_github_io=self.webpackChunksaasassin_github_io||[]).push([[4940],{6992:a=>{a.exports=JSON.parse('{"label":"backlog maintenance","permalink":"/blog/tags/backlog-maintenance","allTagsPath":"/blog/tags","count":2,"unlisted":false}')}}]);
